@@ -18,8 +18,8 @@ nodeSelector: {}
 
 tolerations: []
 
-affinity: {}
-
 serviceAccount: {}
 
 autoscaling: { enabled: false}
+
+affinity: {}

@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "create-service": "node create-service.js",
-    "add-helm": "node add-helm.js"
+    "add-helm": "node add-helm.js",
+    "deploy": "node deploy.js"
   },
   "author": "kelvinbz",
   "license": "ISC"
