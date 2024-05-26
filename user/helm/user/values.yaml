@@ -1,0 +1,25 @@
+replicaCount: 1
+
+image:
+  repository: user
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  enabled: false
+
+resources: {}
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
+
+serviceAccount: {}
+
+autoscaling: { enabled: false}

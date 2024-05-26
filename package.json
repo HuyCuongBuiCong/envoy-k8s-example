@@ -1,0 +1,13 @@
+{
+  "name": "create-nestjs-helm-template",
+  "version": "1.0.0",
+  "description": "To create nestjs with helm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create-service": "node create-service.js",
+    "add-helm": "node add-helm.js"
+  },
+  "author": "kelvinbz",
+  "license": "ISC"
+}
