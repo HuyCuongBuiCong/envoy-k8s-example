@@ -71,7 +71,7 @@ kubectl get pods
 ```
 Use the pod name of the API Gateway service to port-forward:
 ```sh
-kubectl port-forward <api-gateway-pod-name> 3000:10000
+kubectl port-forward <api-gateway-pod-name> 3000:3000
 ```
 
 4. Access the services at the following URLs:
@@ -91,7 +91,7 @@ static_resources:
       address:
         socket_address:
           address: 0.0.0.0
-          port_value: 10000
+          port_value: 3000
       filter_chains:
         - filters:
             - name: envoy.filters.network.http_connection_manager
